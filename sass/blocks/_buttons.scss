@@ -1,0 +1,24 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $second-color;
+    transition: 0.3s all;
+    &:hover {
+        box-shadow: 3px 3px 20px #fff;
+        outline: none;
+    }
+    &_big {
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+    }
+}

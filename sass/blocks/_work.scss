@@ -1,0 +1,27 @@
+.work {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__item {
+        padding: 37px 16px 0 16px;
+        &-title {
+            padding-top: 27px;
+        }
+    }
+    &__img {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 360px;
+            height: 210px;
+            object-fit: cover;
+        }
+    }
+    &__descr {
+        padding-top: 15px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}

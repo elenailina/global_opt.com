@@ -1,0 +1,40 @@
+.footer {
+    height: 130px;
+    background-color: #25333c;
+    padding: 0 16px;
+    &__logo {
+        img {
+            margin-top: 23px;
+        }
+    }
+    &__title {
+        margin-top: 54px;
+        padding-left: 43px;
+        color: $second-color;
+        text-align: left;
+    }
+    &__questions {
+        margin-top: 48px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: $second-color;
+        text-align: right;
+    }
+    &__phone {
+        display: block;
+        margin-top: 5px;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: $second-color;
+        text-align: right;
+        transition: 0.3s all;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__btn {
+        margin: 44px 15px 0 19px;
+    }
+}

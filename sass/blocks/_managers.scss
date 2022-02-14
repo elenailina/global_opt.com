@@ -1,0 +1,36 @@
+.managers {
+    min-height: 342px;
+    padding: 82px 123px 76px 123px;
+    background: url('../img/bg_3.jpg') center center / cover no-repeat;
+    &__img {
+        position: relative;
+        img {
+            display: block;
+            margin: 0 auto;
+            position: relative;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 102px;
+            height: 102px;
+            border: 1px solid #ffffff;
+            border-radius: 100%;
+            top: -21px;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
+    &__title {
+        margin-top: 45px;
+        color: $second-color;
+    }
+    &__descr {
+        margin-top: 18px;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: $second-color;
+        text-align: center;
+    }
+}

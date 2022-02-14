@@ -1,0 +1,25 @@
+.feed {
+    &-form {
+        padding: 67px 164px 52px 220px;
+        input {
+            padding: 19px 28px 16px 28px;
+            width: 269px;
+            border-radius: 50px;
+            font-size: 12px;
+            border: 1px solid rgba(0,0,0,0.2);;
+        }
+        textarea {
+            margin-top: 6px;
+            width: 815px;
+            height: 73px;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
+            resize: none;
+            border-radius: 7px;
+            padding: 19px 26px;
+            font-size: 13px;
+            font-weight: 300;
+            color: #616467;
+        }
+    }
+}
